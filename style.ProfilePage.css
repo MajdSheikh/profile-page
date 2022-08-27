@@ -1,0 +1,263 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav {
+    background-color: rgb(9, 10, 10);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    max-width: auto;
+}
+
+.nav-links {
+   list-style: none;
+   cursor: pointer;
+   Text-align: justify; 
+}
+li {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 600px;
+}
+.nav-title {
+  position: absolute;
+  left: 300px;
+  cursor: pointer;
+}
+.home {
+    position: absolute;
+    left: 450px;
+    top: 40px;
+}
+
+.myprofile {
+    position: absolute;
+    left: 530px;
+    top: 40px;
+    font-weight: 700;
+}
+.connection {
+    position: absolute;
+    left: 660px;
+    top: 40px;
+}
+.btn {
+    position: absolute;
+    left: 460px;
+    cursor: pointer;
+    background-color: turquoise;
+    padding: 5px;
+    width: 100px;
+    font-size: medium;
+}
+
+.container {
+    width: 520px;
+    height:310px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid rgb(104, 103, 103);
+    position: absolute;
+    left: 280px;
+}
+
+.header {
+    height: 90px;
+    background-color: rgb(136, 136, 247);
+}
+.body {
+    background-color: white;
+    padding: 20px;
+    font-size: larger;
+    color: black;
+    line-height: 1.4;
+}
+
+h3 {
+    color: black;
+
+}
+P {
+    color: black;
+}
+.seattle {
+    position: absolute;
+    top: 140px;
+    left: 35px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 60px;
+}
+.img2 {
+    float: left;
+    position:relative;
+    top: 6px;
+    height: 14px;
+}
+
+.img3 {
+    width: 13px;
+    height: 13px;
+}
+
+.EditProfile {
+    color: blue;
+    text-decoration: underline;
+}
+
+.container2 {
+    width: 520px;
+    height: 170px;
+    margin: 20;
+    border: 1px solid rgb(160, 155, 155);
+    position: absolute;
+    left: 300px;
+    background-color: white;
+    top: 450px;
+    border-bottom: none;
+}
+
+#headereducation {
+    padding: 20px;
+    color: aliceblue;
+    height: 20px;
+    background-color: black;
+    font-size: 25px;
+}
+
+.bodyeducation {
+    
+    padding: 20px;
+}
+.date {
+    color: grey;
+    font-size:15;
+    position: relative;
+    top:15px;
+}
+.p1 {
+    font-size: 20px;
+}
+.p3 {
+    font-size: 17px;
+    position: relative;
+    top:30px;
+}
+
+.container3 {
+    width: 300px;
+    height: 190px;
+    margin: 20;
+    border: 1px solid rgb(160, 155, 155);
+    position: absolute;
+    left: 900px;
+    background-color: white;
+    top: 122px;
+}
+
+.names {
+    color:black;
+    font-size: 25px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+img {
+    height: 40px;
+}
+#headrequests {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.bodyrequests {
+    padding: 10px;
+}
+
+.right1  {
+    position: absolute;
+    right: 80px;
+    top: 95px;
+}
+.right2 {
+    position: absolute;
+    right:80px;
+    top: 140px;
+}
+
+.wrong1 {
+    position: absolute;
+    left: 230px;
+    top: 95px;
+}
+
+.wrong2 {
+    position: absolute;
+    left: 230px;
+    top: 140px;
+}
+
+.container4 {
+    width: 300px;
+    height: 280px;
+    margin: 20;
+    border: 1px solid rgb(160, 155, 155);
+    position: absolute;
+    left: 900px;
+    background-color: white;
+    top: 340px;
+    border: 2px solid;
+    border-color: grey;
+}
+
+#headconnections {
+    padding: 20px;
+    color: aliceblue;
+    height: 15px;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+table {
+    padding: 10px;
+}
+img {
+    height:30px;
+}
+
+.footer {
+    position: absolute;
+    right: -3px;
+    width: 300px;
+    bottom: -1px;
+    height: 30px;
+    color:rgb(100, 100, 211) !important;
+    text-decoration: underline;
+    background-color: white;
+    border:2px solid;
+    border-color: grey;
+    text-align: left;
+    font-size: large;
+}
+
