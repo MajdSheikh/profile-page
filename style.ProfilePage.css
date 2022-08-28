@@ -5,6 +5,7 @@
     color: white;
     text-decoration: none;
     list-style-type: none;
+    
 }
 .nav {
     background-color: rgb(9, 10, 10);
@@ -14,13 +15,13 @@
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px;
-    max-width: auto;
+    width: 1265px;
+
 }
 
 .nav-links {
    list-style: none;
    cursor: pointer;
-   Text-align: justify; 
 }
 li {
     display: flex;
